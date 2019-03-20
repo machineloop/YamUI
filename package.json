@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "normalize.css": "6.0.0",
-    "office-ui-fabric-react": "6.0.0-beta4",
+    "office-ui-fabric-react": "6.157.2",
     "react-intersection-observer": "3.0.2"
   },
   "devDependencies": {
@@ -58,6 +58,7 @@
     "precss": "1.4.0",
     "prettier": "1.12.1",
     "raw-loader": "0.5.1",
+    "preact": "10.0.0-alpha.2",
     "react": "16.3.2",
     "react-docgen": "2.19.0",
     "react-docgen-displayname-handler": "1.0.1",

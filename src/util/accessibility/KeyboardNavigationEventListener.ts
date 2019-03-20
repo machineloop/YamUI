@@ -47,7 +47,8 @@ export default class KeyboardNavigationEventListener {
   };
 
   private onKeyDown = (event: KeyboardEvent) => {
-    if (directionalKeyCodes.indexOf(event.which) > -1) {
+    type dirKeyCodes = 38 | 40 | 37 | 39 | 36 | 35 | 9 | 33 | 34;
+    if (directionalKeyCodes.indexOf(event.which as dirKeyCodes) > -1) {
       this.mode = 'keyboard';
       this.eventGroup.raise('modeChange', this.mode);
     }
