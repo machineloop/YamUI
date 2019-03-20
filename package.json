@@ -125,7 +125,8 @@
     "docs": "run-s clean:docs docs:*",
     "create:component": "yo component",
     "precommit": "lint-staged",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "prepare": "npm run clean build"
   },
   "lint-staged": {
     "*.{css,js,jsx,ts,tsx}": [
